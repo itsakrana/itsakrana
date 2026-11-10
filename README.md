@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Ankit%20Rana&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=DevOps%20%26%20Cloud%20Engineer&descAlignY=58&descSize=20" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Ankit%20Rana&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=DevOps%20and%20Cloud%20Engineer&descAlignY=58&descSize=20" width="100%" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=2F81F7&center=true&vCenter=true&width=720&lines=Automating+infrastructure+with+Terraform;Shipping+reliably+with+CI%2FCD+and+GitOps;Building+on+Kubernetes%2C+AWS+%26+Azure;Based+in+Mumbai%2C+India+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=2F81F7&center=true&vCenter=true&width=720&lines=Automating+infrastructure+with+Terraform;Shipping+reliably+with+CI%2FCD+and+GitOps;Building+on+Kubernetes%2C+AWS+and+Azure;Based+in+Mumbai%2C+India" alt="Typing SVG" />
 
 <br/>
 
@@ -20,7 +20,7 @@
 
 I'm a DevOps and Cloud Engineer who likes the part of software most people never see: the pipelines, infrastructure, and monitoring that keep applications running.
 
-- 🔭 Completed a 6-month DevOps & Cloud Engineer internship, including a real **AWS-to-Azure migration** with Terraform and GitHub Actions
+- 🔭 Completed a 6-month DevOps and Cloud Engineer internship, including a real **AWS-to-Azure migration** with Terraform and GitHub Actions
 - 🛠️ Building hands-on **Kubernetes, GitOps, and DevSecOps** projects
 - 🌱 Currently deepening my skills in **Kubernetes, Terraform, and cloud security**
 - 🎓 Pursuing B.Sc. in Information Technology (expected 2027)
@@ -31,25 +31,25 @@ I'm a DevOps and Cloud Engineer who likes the part of software most people never
 
 ## 🛠️ Tech Stack
 
-**☁️ Cloud & IaC**
+**☁️ Cloud and IaC**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 
-**📦 Containers & Orchestration**
+**📦 Containers and Orchestration**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
 
-**🔄 CI/CD & GitOps**
+**🔄 CI/CD and GitOps**
 
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
 
-**📊 Monitoring & Security**
+**📊 Monitoring and Security**
 
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
@@ -65,32 +65,47 @@ I'm a DevOps and Cloud Engineer who likes the part of software most people never
 
 ## 📂 Featured Projects
 
-<table>
-  <tr>
-    <td>
-      <a href="https://github.com/itsakrana/NotePad-Project">
-        <img src="https://github-readme-stats.shion.dev/api/pin/?username=itsakrana&repo=NotePad-Project&theme=tokyonight&hide_border=true" />
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/itsakrana/wanderlust">
-        <img src="https://github-readme-stats.shion.dev/api/pin/?username=itsakrana&repo=wanderlust&theme=tokyonight&hide_border=true" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/itsakrana/k8s-microservices-terraform">
-        <img src="https://github-readme-stats.shion.dev/api/pin/?username=itsakrana&repo=k8s-microservices-terraform&theme=tokyonight&hide_border=true" />
-      </a>
-    </td>
-    <td></td>
-  </tr>
-</table>
+### 🔹 [GitOps DevOps Dashboard](https://github.com/itsakrana/gitops-devops-dashboard)
+An end-to-end GitOps delivery pipeline for a full-stack application (React, Node.js, MongoDB), where every change flows from Git to a running Kubernetes cluster automatically.
 
-- **Helm-Based Kubernetes Release Management:** reusable Helm charts with automated deployments and rollbacks, which reduced configuration errors by **35%**
-- **Secure CI/CD with DevSecOps:** Jenkins with SonarQube, Trivy, and OWASP Dependency-Check, which reduced deployment failures by **25%**
-- **Kubernetes Microservices Pipeline:** Terraform, Argo CD, Prometheus, and Grafana on a local cluster with an AWS emulator
+`Developer → GitHub → Jenkins → DockerHub → Kubernetes → Argo CD`
+
+- Jenkins pipeline builds Docker images and pushes them to DockerHub on every commit
+- Argo CD uses a parent app to deploy the frontend, backend, database, and monitoring stack, keeping the cluster in sync with Git
+- Prometheus and Grafana provide metrics and dashboards
+- **Stack:** `Jenkins` `Docker` `Kubernetes` `Argo CD` `Prometheus` `Grafana` `React` `Node.js` `MongoDB`
+
+### 🔹 [Secure CI/CD Pipeline with DevSecOps](https://github.com/itsakrana/wanderlust)
+A Jenkins pipeline that scans code, dependencies, and images before anything is deployed.
+
+- SonarQube Quality Gates, Trivy image scanning, and OWASP Dependency-Check stop insecure builds
+- Containerized with Docker for consistent environments
+- **Result:** deployment failures reduced by **25%**
+- **Stack:** `Jenkins` `SonarQube` `Trivy` `OWASP Dependency-Check` `Docker`
+
+### 🔹 [Helm-Based Kubernetes Release Management](https://github.com/itsakrana/NotePad-Project)
+Reusable Helm charts that make Kubernetes releases repeatable across environments.
+
+- Parameterized configuration with `values.yaml`, plus automated upgrades and rollbacks
+- Deployment through Argo CD, with Prometheus and Grafana monitoring
+- **Result:** configuration errors reduced by **35%**
+- **Stack:** `Kubernetes` `Helm` `Argo CD` `Jenkins` `Prometheus` `Grafana`
+
+### 🔹 [DevOps Pipeline for Kubernetes Microservices](https://github.com/itsakrana/k8s-microservices-terraform)
+A fully local DevOps environment for three FastAPI microservices, using Floci (an AWS emulator) so it needs no cloud account and costs nothing.
+
+- Terraform modules provision AWS-compatible VPC, ECR, EKS, S3, and DynamoDB, with services deployed to kind using Helm
+- GitOps with Argo CD, observability with Prometheus and Grafana, and strict Kubernetes NetworkPolicies
+- CI validation with GitHub Actions
+- **Stack:** `Terraform` `Floci` `Docker` `kind` `Helm` `Argo CD` `Prometheus` `Grafana` `GitHub Actions`
+
+---
+
+## 🎓 Certifications
+
+![AWS Fundamentals](https://img.shields.io/badge/AWS_Fundamentals-Coursera_2025-232F3E?style=for-the-badge)
+![DevOps Foundations](https://img.shields.io/badge/DevOps_Foundations-LinkedIn_Learning_2026-0A66C2?style=for-the-badge)
+![Kubernetes](https://img.shields.io/badge/Getting_Started_with_Kubernetes-LinkedIn_Learning_2026-326CE5?style=for-the-badge)
 
 ---
 
@@ -103,16 +118,6 @@ I'm a DevOps and Cloud Engineer who likes the part of software most people never
 
 <img src="https://streak-stats.demolab.com/?user=itsakrana&theme=tokyonight&hide_border=true" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=itsakrana&theme=tokyo-night&hide_border=true" width="100%" />
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=itsakrana&theme=tokyonight&no-frame=true&no-bg=true&margin-w=12&column=7" />
 </div>
 
 ---
