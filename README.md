@@ -1,89 +1,49 @@
 <h1 align="center">Hi, I'm Ankit Rana 👋</h1>
+<h3 align="center">DevOps & Cloud Engineer from Mumbai, India</h3>
 
-<h3 align="center">
-  DevOps & Cloud Engineer | AWS | Azure | Kubernetes
-</h3>
-
-<p align="center">
-  <a href="https://itsakrana.github.io/">Portfolio</a> •
-  <a href="https://www.linkedin.com/in/ankit-rana-3a2a05379/">
-    LinkedIn
-  </a>
-</p>
+<p align="center"><i>I turn manual, error-prone deployments into automated, reliable, and secure systems.</i></p>
 
 ---
 
 ## 👨‍💻 About Me
 
-- B.Sc. IT Student with 6 months of DevOps internship experience.
-- Interested in Cloud Infrastructure and DevOps Engineering.
-- Hands-on experience with CI/CD, containerization and
-  infrastructure automation.
-- Working with AWS, Azure and Kubernetes ecosystems.
-- Continuously learning modern DevOps practices and tools.
-- Open to DevOps Engineer and Cloud Engineer opportunities.
+I'm a DevOps and Cloud Engineer who enjoys the part of software that most people never see: the pipelines, infrastructure, and monitoring that keep applications running smoothly.
 
-## 🛠️ Technical Skills
+I started with a simple question: *why does shipping software have to be so painful?* That curiosity led me to cloud platforms, Infrastructure as Code, containers, and CI/CD. I recently completed a 6-month internship where I worked on a real AWS-to-Azure migration, wrote Terraform modules, and automated deployments with GitHub Actions. Outside of work, I keep building projects to learn how production systems really behave.
 
-| Category | Technologies |
-|---|---|
-| Cloud | AWS, Microsoft Azure |
-| Containers | Docker, Kubernetes |
-| CI/CD | Jenkins, GitHub Actions |
-| GitOps | Argo CD |
-| Infrastructure as Code | Terraform |
-| Monitoring | Prometheus, Grafana |
-| Security | SonarQube, Trivy |
-| Configuration | Helm |
-| Operating Systems | Linux |
-| Version Control | Git, GitHub |
-| Database | PostgreSQL |
-
-## 🚀 Featured Projects
-
-### 1. GitOps DevOps Dashboard
-End-to-end DevOps project using Jenkins, Docker,
-Kubernetes, Argo CD, Prometheus and Grafana.
-
-[View Project](https://github.com/itsakrana/gitops-devops-dashboard)
-
-### 2. Microservices CI/CD Deployment
-Automated CI/CD pipeline using Jenkins, Docker
-and Kubernetes.
-
-[View Project](https://github.com/itsakrana/Microservices_project)
-
-### 3. Two-Tier Docker Architecture
-Containerized Flask and MySQL application
-using Docker Compose and Nginx.
-
-[View Project](https://github.com/itsakrana/two-tier-docker-architecture)
-
-### 4. Kubernetes Manifests
-Practical Kubernetes YAML configurations
-for deployments, services and other resources.
-
-[View Project](https://github.com/itsakrana/k8s-manifests)
+I care about three things in everything I build:
+- **Automation:** if I do it twice, I script it.
+- **Reliability:** deployments should be boring, repeatable, and safe to roll back.
+- **Security:** scanning and quality checks belong inside the pipeline, not after it.
 
 ---
 
-## 🎯 Current Focus
+## 🔭 What I'm Working On
 
-- Cloud Infrastructure Automation
-- Kubernetes & Container Orchestration
-- CI/CD Pipeline Optimization
-- GitOps & Infrastructure as Code
-- Cloud Monitoring and Security
+- Going deeper into **Kubernetes, GitOps, and Terraform**
+- Building hands-on **DevSecOps** and **observability** projects
+- Strengthening my **AWS** skills alongside my Azure experience
 
 ---
 
-## 📫 Connect With Me
+## 🛠️ Tools I Work With
 
-- GitHub: https://github.com/itsakrana
-- LinkedIn: https://www.linkedin.com/in/ankit-rana-3a2a05379/
-- Portfolio: https://itsakrana.github.io/
+**Cloud:** AWS • Azure
+**Infrastructure as Code:** Terraform
+**Containers:** Docker • Kubernetes • Helm
+**CI/CD & GitOps:** GitHub Actions • Jenkins • Argo CD
+**Monitoring:** Prometheus • Grafana
+**Security:** SonarQube • Trivy • OWASP Dependency-Check
+**Basics:** Linux • Git
 
 ---
-<p align="center">
-  Thanks for visiting my profile!
+
+## 📫 Let's Connect
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/ankit-rana-3a2a05379/">LinkedIn</a> •
+  <a href="https://itsakrana.github.io/">Portfolio</a> •
+  <a href="mailto:akrana675@gmail.com">akrana675@gmail.com</a>
 </p>
+
+*Thanks for stopping by, and feel free to explore my repositories!* ⭐
