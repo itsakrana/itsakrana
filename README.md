@@ -138,19 +138,6 @@ flowchart LR
 
 ---
 
-## 🧭 How I Work
-
-- **Automate it:** if I do something twice, I script it
-- **Make deployments boring:** repeatable, reviewed, and easy to roll back
-- **Shift security left:** scan in the pipeline, not after release
-
----
-
-## 🌱 Currently Learning
-
-- Kubernetes in depth
-- Advanced Terraform
-- Cloud security
 
 ---
 
