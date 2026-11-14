@@ -109,16 +109,48 @@ A fully local DevOps environment for three FastAPI microservices, using Floci (a
 
 ---
 
-## 📊 GitHub Stats
+## 🔄 How I Ship Software
 
-<div align="center">
+```mermaid
+flowchart LR
+    A["👨‍💻 Developer"] -->|git push| B["GitHub"]
+    B --> C["CI: Jenkins / GitHub Actions"]
+    C --> D["Build + Test + Security Scan"]
+    D --> E["Docker Image"]
+    E --> F["Container Registry"]
+    F --> G["Argo CD (GitOps)"]
+    G --> H["Kubernetes"]
+    H --> I["Prometheus + Grafana"]
+    T["Terraform (IaC)"] -.->|provisions| H
+```
 
-<img height="180" src="https://github-readme-stats.shion.dev/api?username=itsakrana&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-<img height="180" src="https://github-readme-stats.shion.dev/api/top-langs/?username=itsakrana&layout=compact&theme=tokyonight&hide_border=true" />
+---
 
-<img src="https://streak-stats.demolab.com/?user=itsakrana&theme=tokyonight&hide_border=true" />
+## 🎯 What I Focus On
 
-</div>
+| Area | What I do | Tools |
+|------|-----------|-------|
+| ☁️ **Cloud and IaC** | Provision and migrate infrastructure as code | Terraform, Azure, AWS |
+| 🔁 **CI/CD** | Automate build, test, and deployment | GitHub Actions, Jenkins |
+| ☸️ **Kubernetes and GitOps** | Deploy and keep clusters in sync with Git | Kubernetes, Helm, Argo CD |
+| 🛡️ **DevSecOps** | Add code and image scanning inside the pipeline | SonarQube, Trivy, OWASP Dependency-Check |
+| 📊 **Observability** | Monitor systems with metrics and dashboards | Prometheus, Grafana |
+
+---
+
+## 🧭 How I Work
+
+- **Automate it:** if I do something twice, I script it
+- **Make deployments boring:** repeatable, reviewed, and easy to roll back
+- **Shift security left:** scan in the pipeline, not after release
+
+---
+
+## 🌱 Currently Learning
+
+- Kubernetes in depth
+- Advanced Terraform
+- Cloud security
 
 ---
 
